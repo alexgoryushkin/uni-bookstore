@@ -1,0 +1,39 @@
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.classpath
+.recommenders
+.gradle/
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+# IDEA artifacts and output dirs
+*.iml
+*.ipr
+*.iws
+.idea
+out
+test-output
+atlassian-ide-plugin.xml
+.gradletasknamecache
+/.gradle/
+/build/
