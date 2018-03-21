@@ -1,6 +1,11 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
+compileJava.options.encoding = 'utf-8'
+compileTestJava.options.encoding = 'utf-8'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 repositories {
     jcenter()
 }
@@ -14,6 +19,8 @@ dependencies {
     compile "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.8"
 
     compile "mysql:mysql-connector-java:6.0.6"
+
+    compile "com.h2database:h2:1.4.197"
 
     compile "io.springfox:springfox-swagger2:2.6.1"
     compile "io.springfox:springfox-swagger-ui:2.6.1"

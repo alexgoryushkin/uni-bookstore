@@ -7,14 +7,14 @@
 -- Server version: 5.6.26
 -- PHP Version: 5.6.11
 
---USE bookstore;
+USE bookstore;
 
---SET character_set_client = "UTF8";
---SET character_set_results = "UTF8";
---SET character_set_connection = "UTF8";
---
---SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
---SET time_zone = "+00:00";
+SET character_set_client = "UTF8";
+SET character_set_results = "UTF8";
+SET character_set_connection = "UTF8";
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
 
 --
 -- Database: `jpa_example`
@@ -78,5 +78,5 @@ INSERT INTO `user_entity` (`id`, `login`, `name`, `email`, `password`) VALUES
 -- Dumping data for table `user_roles`
 --
 INSERT INTO `user_roles` (`user_entity_id`, `roles`) VALUES
-(9, 'ROLE_ADMIN'),
-(10, 'ROLE_ADMIN');
+(9, "ROLE_ADMIN"),
+(10, "ROLE_ADMIN");
