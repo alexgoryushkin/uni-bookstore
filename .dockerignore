@@ -1,0 +1,11 @@
+.gradle
+.idea
+.git
+.gitignore
+.dockerignore
+.settings
+build
+bin
+tmp
+Dockerfile
+*.sql
